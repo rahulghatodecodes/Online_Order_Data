@@ -9,10 +9,7 @@ Order ID	Order Date	Ship Date	Customer Name	Country	City	State	Postal Code	Regio
 - Data Visualization
 
 ## Programming Language & Tools:
-- Python:
-  Data Manupulation, using Pandas library.
-  Data Computation, using Numpy library.
-  Data Visualtion using Matplotlib & Seaborn libraries
+- Python: Data Manupulation using Pandas library, Data Computation using Numpy library, Data Visualtion using Matplotlib & Seaborn libraries.
 - Jupyter Notebook
 - Microsoft SQL Server Management Studio (SSMS)
 - Microsoft Power BI
