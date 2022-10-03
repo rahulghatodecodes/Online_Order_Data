@@ -32,20 +32,20 @@ We have a Walmart Data containing detailed information of customers who ordered 
 1. Used dropna function, getting rid of rows where all the column values are null.
    - **walmart.dropna(how = 'all', inplace = True)**
 2. Used replace function, fixed multiple instances of "country" column.
-   - **walmart['Country'].replace({'United States': 'USA'}, inplace=True)
-   - **walmart['Country'].unique()
+   - **walmart['Country'].replace({'United States': 'USA'}, inplace=True)**
+   - **walmart['Country'].unique()**
 3. In data imputation, replaced the null values of "Sales" column with mean.
-   - **m = walmart['Sales'].mean()
-   - **walmart['Sales'].fillna(value=m, inplace=True)
+   - **m = walmart['Sales'].mean()**
+   - **walmart['Sales'].fillna(value=m, inplace=True)**
 4. Used Order by keyword in SQL Server, extracted the products giving us the highest profit.
-   - **select customer_name, product_name, state, profit 
-   - **from Walmart 
-   - **WHERE state = "California" AND customer_name = "Brosina Hoffman"
-   - **order by profit DESC limit 4
+   - **select customer_name, product_name, state, profit**
+   - **from Walmart**
+   - **WHERE state = "California" AND customer_name = "Brosina Hoffman"**
+   - **order by profit DESC limit 4**
 5. Joined two tables using join in SQL Server, the second table contains the information of those order which got cancelled. We need to find the customer who cancelled the order, and the product name which got cancelled and what is the profit for that product. 
-   - **select customer_name, product_name, state, profit, returned
-   - **from Walmart join Return_Order
-   - **on order_id = orders
+   - **select customer_name, product_name, state, profit, returned**
+   - **from Walmart join Return_Order**
+   - **on order_id = orders**
 6. Created a interactive **dashboard** for the walmart data on Microsoft Power BI:
    <img width="955" alt="image" src="https://user-images.githubusercontent.com/98107926/193669939-6b963d66-3294-450e-8b2a-3610d6a5a727.png">
    - Used **card visual** to display total Sales, total Profit and total count of order_ID.
