@@ -32,6 +32,11 @@ Order ID	Order Date	Ship Date	Customer Name	Country	City	State	Postal Code	Regio
    - select customer_name, product_name, state, profit, returned
    - from Walmart join Return_Order
    - on order_id = orders
-6. Created Dashboard on Microsoft Power BI
+6. Created a interactive dashboard for the walmart data on Microsoft Power BI
    - <img width="955" alt="image" src="https://user-images.githubusercontent.com/98107926/193669939-6b963d66-3294-450e-8b2a-3610d6a5a727.png">
-
+   - Using PowerBI created pie charts, maps, bar charts, area charts decomposition tree, slicers and QnA for
+better visualization. Used SQL for Data Modelling, Data Cleaning and Optimizing.
+   - Using card visual, displayed total Sales, total Profit and total count of order_ID.
+   - Using area chart, visualized Sales and Profit by Year.
+   - Using Treemap, displayed Profit by category.
+   - Using 
