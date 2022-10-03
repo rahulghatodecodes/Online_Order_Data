@@ -15,7 +15,8 @@ Order ID	Order Date	Ship Date	Customer Name	Country	City	State	Postal Code	Regio
 - Microsoft Power BI
 
 ## Tasks: 
-- Using dropna function, getting rid of rows where all the column values are null.
+1. Using dropna function, getting rid of rows where all the column values are null.
+   - walmart.dropna(how = 'all', inplace = True)
 - Using replace function, fixed multiple instances of "country" column.
 - In data imputation, replaced the null values of "Sales" column with mean
 - Using Order by keyword, extracted the products giving us the highest profit.
