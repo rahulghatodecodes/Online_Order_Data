@@ -1,4 +1,4 @@
-# Walmart Data
+# Online order Data
 We have a Walmart Data containing detailed information of customers who ordered some product. The dataframe contains of different variables which we will be working on are mentioned below:
 - Order ID	
 - Order Date	
